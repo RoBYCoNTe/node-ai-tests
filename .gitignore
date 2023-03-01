@@ -1,0 +1,6 @@
+# add common ignorable files and folder for node projects:
+node_modules
+output/*
+!output/.keep
+samples/*
+!samples/.keep

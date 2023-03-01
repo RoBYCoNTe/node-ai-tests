@@ -1,0 +1,17 @@
+{
+  "name": "tests",
+  "author": "Roberto Conte Rosito",
+  "version": "1.0.0",
+  "description": "Few tests with AI and Node.js",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.0",
+    "sharp": "^0.31.3"
+  },
+  "scripts": {
+    "huggingface": "node huggingface.js"
+  },
+  "license": "MIT",
+  "devDependencies": {}
+}
