@@ -1,5 +1,5 @@
-import huggingface from "./api/huggingface.js";
-import paint from "./util/paint.js";
+import huggingface from "../api/huggingface.js";
+import paint from "../util/paint.js";
 import { parseArgs } from "node:util";
 import sharp from "sharp";
 

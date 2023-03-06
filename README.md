@@ -10,7 +10,19 @@ my research).
 npm i
 ```
 
-## Tests
+## Labs
+
+### @tensorflow/qna
+
+This is a simple test to use the tfjs library to build a simple QnA model.
+You can provide your own context of information and then ask a question to
+the model:
+
+```bash
+node labs/qna.js \
+	--context "The capital of Italy is Rome" \
+	--question "What is the capital of Italy?"
+```
 
 ### huggingface.co 🫣
 
@@ -23,5 +35,5 @@ goal to recognize clothes inside images.
 Basic usage of the CLI:
 
 ```bash
-npm huggingface --apiKey <?> --inputImage <?> --outputImage <?>
+node labs/huggingface.js --apiKey <?> --inputImage <?> --outputImage <?>
 ```
